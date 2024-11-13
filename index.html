@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calcolatrice</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="main.js"></script>
+</head>
+<body>
+    <div>
+    <h1>Calcolatrice</h1>
+    <input type="text" id="Inputtxt" placeholder="Click on the button">
+    <br>
+    <button onclick="writenumber(1)">1</button>
+    <button onclick="writenumber(2)">2</button>
+    <button onclick="writenumber(3)">3</button>
+    <button onclick="addSymbol('+')">+</button>
+    <br>
+    <button onclick="writenumber(4)">4</button>
+    <button onclick="writenumber(5)">5</button>
+    <button onclick="writenumber(6)">6</button>
+    <button onclick="addSymbol('-')">-</button>
+    <br>
+    <button onclick="writenumber(7)">7</button>
+    <button onclick="writenumber(8)">8</button>
+    <button onclick="writenumber(9)">9</button>
+    <button onclick="addSymbol('*')">*</button>
+    <br>
+    <button onclick="writenumber(0)">0</button>
+    <button id="Clear" onclick="deleteLastChar()">Clear</button>
+    <button onclick="addSymbol('/')">/</button>
+    <br>
+    <button id="Enter" onclick="calculateResult()">Enter</button>
+    </div>
+</body>
+</html>
